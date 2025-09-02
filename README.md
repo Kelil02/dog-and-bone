@@ -25,14 +25,6 @@ A tiny 2D game where you guide a dog to a bone, avoid walls, and manage master v
 
 ---
 
-## Controls
-- **Left Mouse (hold):** Move the dog toward the cursor.
-- **ESC:** Pause / open menu (where applicable).
-- **R:** Retry after *Game Over* (if your platform input is set up like that).
-- **Quit button:** Exits the application (in a build).
-
----
-
 ## Gameplay
 - Reach the **bone** to **Win** (plays a one-shot “goal” sound).
 - Touch a **wall** to trigger **Game Over** (Retry or Back to Menu).
