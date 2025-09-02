@@ -1,4 +1,4 @@
-# Dog & Bone (Unity test)
+# Dog & Bone (Unity Project)
 
 A tiny 2D game where you guide a dog to a bone, avoid walls, and manage master volume from a Settings menu.
 
