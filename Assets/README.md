@@ -40,3 +40,21 @@
 
 ### Credits
 Starter assets: yours or free placeholders. Sounds/images under permissive licenses.
+
+
+
+## Implemented
+- Two scenes: Main Menu (Scene 0) and Game (Scene 1) — both added to Build Settings.
+- Start/Settings/Quit buttons work.
+- Master Volume slider controls exposed mixer param `MasterVolume`.
+- Dog is mouse-controlled; hitting a wall triggers Game Over.
+- Picking the bone triggers Win and plays the goal sound once.
+- Retry resets the scene; cursor shows/hides correctly between menu and game.
+
+## Skipped
+- Advanced SFX mixing per-sound (kept it to a single master).
+- Mobile/touch UI (mouse only).
+
+## Known issues
+- First frame after retry, mouse might be briefly visible before lock.
+- Audio mixer has a safe min at –80 dB (Unity’s floor); slider maps 0–1 to –80..0.
